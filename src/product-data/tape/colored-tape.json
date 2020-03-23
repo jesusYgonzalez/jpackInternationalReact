@@ -1,0 +1,53 @@
+{
+	"coloredTape": [
+		{
+			productNumber: "TP-TC2110B",
+			color: "Blue",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110BK",
+			color: "Black",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110G",
+			color: "Green",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110O",
+			color: "Orange",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110W",
+			color: "White",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110Y",
+			color: "Yellow",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		},
+		{
+			productNumber: "TP-TC2110R",
+			color: "Red",
+			"durability": "2 Mil.",
+			size: "2″ x 110 Yds.",
+			"rollsPerCase": 36
+		}
+	]
+}

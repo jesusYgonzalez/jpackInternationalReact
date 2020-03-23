@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1YyAgq75Cb6qcslZK0MFcyJhHxK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.21393035" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="" />
+      <created>1583904574566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583904574566</updated>
+      <workItem from="1583904576010" duration="605000" />
+      <workItem from="1583905462037" duration="33073000" />
+      <workItem from="1584920836235" duration="4341000" />
+      <workItem from="1584926585626" duration="1520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="1176" key="#Live_Templates" timestamp="1584436275648">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="655" y="1176" key="#Live_Templates/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584436275648" />
+    <state x="1088" y="1351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584319306912">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="1088" y="1351" key="#com.intellij.fileTypes.FileTypeChooser/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584319306912" />
+    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1584435792311">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584435792311" />
+    <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1584779106670">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779106670" />
+    <state x="2576" y="116" width="1416" height="722" key="SettingsEditor" timestamp="1584779531368">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="12" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584440833230" />
+    <state x="2576" y="116" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779531368" />
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584435669786" />
+    <state x="2693" y="144" width="1654" height="816" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584780176008">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2693" y="144" width="1654" height="816" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584780176008" />
+    <state x="755" y="1203" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583920264723" />
+    <state x="122" y="415" width="837" height="553" key="find.popup" timestamp="1584928571311">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="3592" y="143" width="782" height="550" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779343810" />
+    <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584928571311" />
+    <state x="1040" y="751" key="run.anything.popup" timestamp="1583915864726">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="1040" y="751" key="run.anything.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583915864726" />
+    <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup" timestamp="1584779514624">
+      <screen x="2560" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779514624" />
+    <state x="1040" y="1293" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584436518249" />
+  </component>
+</project>
