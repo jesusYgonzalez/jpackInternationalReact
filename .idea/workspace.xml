@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="" />
+    <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Aux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Aux/Aux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/antiStaticBags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/bubble-pouches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/clear-poly-bags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/clear-reclosable-bags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/poly-bag-sealer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/poly-tubing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/polypropylene-bags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/static-shielding-bags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/bags/vacuum-bags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/box-stapler-staples.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/corrugated-boxes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/corrugated-bulk-containers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/corrugated-mailers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/corrugated-pads.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/easy-fold-boxes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/corrugated-boxes/mailing-tubes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/bubble-wrap-foam-dispenser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/bubble-wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/cushioning-foam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/kraft-wrapping-paper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/newsprint-wrapping-paper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/packing-peanuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/cushioning/tissue-wrapping-paper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/labels-envelopes/circle-mailing-labels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/labels-envelopes/laser-labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/labels-envelopes/packing-list-envelopes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/labels-envelopes/shipping-handling-labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/labels-envelopes/thermal-transfer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/mailers/kraft-bubble.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/mailers/poly-bubble-mailer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/mailers/poly-mailer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/misc/cable-ties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/misc/gloves-masks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/misc/metal-truck-seal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/misc/shipping-scales.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/misc/twist-ties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/strapping/poly-strapping-machine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/strapping/poly-strapping-tools.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/strapping/poly-strapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/strapping/steel-strapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/strapping/v-boards.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/hand-stretch-wrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/machine-stretch-wrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/opaque-stretch-wrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/shrink-wrap-roll.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/shrink-wrap-system.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/stretch-film/stretch-wrap-machinery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/carton-sealing-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/colored-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/custom-print-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/filament-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/masking-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/office-tape-dispenser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/tape-dispenser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/vinyl-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tape/water-activated-gummed-tape.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tools-machines/air-pillow-machine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tools-machines/glue-gun.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tools-machines/poly-tubing-dispenser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tools-machines/utility-knife.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product-data/tools-machines/wrapping-paper-dispenser.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +87,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -21,6 +97,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YyAgq75Cb6qcslZK0MFcyJhHxK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -39,11 +119,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.21393035" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hoc/Aux" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
@@ -60,12 +141,26 @@
       <workItem from="1583904576010" duration="605000" />
       <workItem from="1583905462037" duration="33073000" />
       <workItem from="1584920836235" duration="4341000" />
-      <workItem from="1584926585626" duration="1520000" />
+      <workItem from="1584926585626" duration="8187000" />
+      <workItem from="1584939065799" duration="23247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="655" y="1176" key="#Live_Templates" timestamp="1584436275648">
@@ -80,34 +175,38 @@
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584435792311" />
+    <state x="1113" y="1295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584939186274">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="1113" y="1295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584939186274" />
     <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1584779106670">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779106670" />
-    <state x="2576" y="116" width="1416" height="722" key="SettingsEditor" timestamp="1584779531368">
-      <screen x="2560" y="23" width="1920" height="1057" />
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor" timestamp="1584956150261">
+      <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="12" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584440833230" />
     <state x="2576" y="116" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779531368" />
-    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584435669786" />
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584956150261" />
     <state x="2693" y="144" width="1654" height="816" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584780176008">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state x="2693" y="144" width="1654" height="816" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584780176008" />
     <state x="755" y="1203" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583920264723" />
-    <state x="122" y="415" width="837" height="553" key="find.popup" timestamp="1584928571311">
+    <state x="122" y="415" width="837" height="553" key="find.popup" timestamp="1584949152120">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="3592" y="143" width="782" height="550" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779343810" />
-    <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584928571311" />
+    <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584949152120" />
     <state x="1040" y="751" key="run.anything.popup" timestamp="1583915864726">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1040" y="751" key="run.anything.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583915864726" />
-    <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup" timestamp="1584779514624">
-      <screen x="2560" y="23" width="1920" height="1057" />
+    <state x="1040" y="1293" width="670" height="676" key="search.everywhere.popup" timestamp="1584937342306">
+      <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779514624" />
-    <state x="1040" y="1293" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584436518249" />
+    <state x="1040" y="1293" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584937342306" />
   </component>
 </project>
