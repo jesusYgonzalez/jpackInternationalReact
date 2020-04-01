@@ -64,7 +64,7 @@ const cableTies = [
   }
 ];
 
-const AntiStaticBags = () => {
+const CableTies = () => {
   return (
     <MDBTable striped>
       <MDBTableHead>
@@ -89,4 +89,4 @@ const AntiStaticBags = () => {
   );
 };
 
-export default AntiStaticBags;
+export default CableTies;

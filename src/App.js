@@ -1,18 +1,20 @@
 import React, { Component } from "react";
+import Router from "./Router";
 
 import Layout from "./hoc/Layout/Layout";
-import Home from "./components/navbar/home";
+import NavigationBars from "./components/core/navigationBars";
 
 class App extends Component {
-	render() {
-		return (
-			<div>
-				<Layout>
-					<Home />
-				</Layout>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <Layout>
+          <NavigationBars />
+          <Router />
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;

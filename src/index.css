@@ -1,6 +1,27 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: "Open Sans", "sans-serif";
-	/*background-color: steelblue;*/
+  background-color: darkslategrey;
 }
+/*//import "~node_modules/rfs/scss";*/
+/*//import "/Users/jesusgonzalez/Documents/jpackInternational/node_modules/rfs/scss.scss";*/
+
+/*//@media (min-width: 576px) {*/
+/*//  Item,*/
+/*//  th {*/
+/*//	font-size: 0.9rem;*/
+/*//  }*/
+/*//}*/
+/*//*/
+/*//.card-text {*/
+/*//  line-height: 1.1rem;*/
+/*//}*/
+/*//*/
+/*//@media (max-width: 768px) {*/
+/*//  .btn {*/
+/*//	font-size: 11px;*/
+/*//	padding: 4px 6px;*/
+/*//  }*/
+/*//  th,*/
+/*//  td {*/
+/*//	padding: 0;*/
+/*//  }*/
+/*//}*/

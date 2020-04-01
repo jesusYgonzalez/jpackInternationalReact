@@ -1,5 +1,16 @@
 import React from "react";
-import { MDBTable, MDBTableBody, MDBTableHead } from "mdbreact";
+import {
+	MDBBtn,
+	MDBCard, MDBCardBody,
+	MDBCardImage, MDBCardTitle,
+	MDBCol,
+	MDBContainer,
+	MDBRow,
+	MDBTable,
+	MDBTableBody,
+	MDBTableHead
+} from "mdbreact";
+import image from "../../../assets/img/poly-bag.jpg";
 
 const clearPolyBags = [
 	{
@@ -2805,14 +2816,55 @@ const clearPolyBags = [
 
 const ClearPolyBags = () => {
 	return (
+		<div>
+			<MDBContainer className="my-4" >
+			<MDBRow>
+				<MDBCol >
+					<MDBCard>
+						<MDBCardImage
+							className="img-fluid mx-auto"
+							src={image}
+							alt={"Anti Static Bag"}
+							waves
+						/>
+					</MDBCard>
+				</MDBCol>
+
+				<MDBCol className="mb-4">
+					<MDBCard>
+						<MDBCardBody>
+							<MDBCardTitle style={{color: "#1976d2"}}>
+								Clear Poly Bags
+							</MDBCardTitle>
+							<p className="card-text lead">100% virgin polyethylene bags</p>
+							<p className="card-text lead">Meets FDA and USDA specifications for food contact.</p>
+							<p className="card-text lead">Premium bag features superior clarity.</p>
+							<p className="card-text lead">Seal with Poly Bag Sealer.</p>
+							<p className="card-text lead">1 Mil – Lightweight protection for temporary storage.</p>
+							<p className="card-text lead">2 Mil – Most popular thickness for parts, clothing, and food.</p>
+							<p className="card-text lead">3 Mil – Added protection for parts and hardware.</p>
+							<p className="card-text lead">4 Mil – Heavier protection for industrial parts and tools.</p>
+							<p className="card-text lead">Customized Poly Bags Available.</p>
+						</MDBCardBody>
+					</MDBCard>
+				</MDBCol>
+			</MDBRow>
+		</MDBContainer>
+
 		<MDBTable striped>
 			<MDBTableHead>
-				<tr>
+				<tr color="primary"
+						style={{
+							backgroundColor: "#1976d2",
+							color: "white"
+						}}
+				>
 					<th>Product Number</th>
 					<th>Durability</th>
 					<th>Size</th>
 					<th>Weight</th>
 					<th>Bags Per Case</th>
+					<th>Cart</th>
 				</tr>
 			</MDBTableHead>
 			<MDBTableBody>
@@ -2823,10 +2875,12 @@ const ClearPolyBags = () => {
 						<td>{bags.sizeWxL}</td>
 						<td>{bags.weight}</td>
 						<td>{bags.bagPerCase}</td>
+						<td><MDBBtn color="blue">Add</MDBBtn></td>
 					</tr>
 				))}
 			</MDBTableBody>
 		</MDBTable>
+		</div>
 	);
 };
 
