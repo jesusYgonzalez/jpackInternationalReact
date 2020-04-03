@@ -1,6 +1,15 @@
 body {
   background-color: darkslategrey;
 }
+
+/*.side-nav a {*/
+/*  display: block;*/
+/*  height: 20px;*/
+/*  padding-left: 20px;*/
+/*  font-size: 0.5rem;*/
+/*  line-height: 20px;*/
+/*}*/
+
 /*//import "~node_modules/rfs/scss";*/
 /*//import "/Users/jesusgonzalez/Documents/jpackInternational/node_modules/rfs/scss.scss";*/
 

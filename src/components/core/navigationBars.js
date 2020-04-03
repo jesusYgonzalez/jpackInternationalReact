@@ -15,7 +15,9 @@ import {
   MDBSideNavNav,
   MDBSideNav,
   MDBFormInline,
-  MDBCol
+  MDBCol,
+  MDBListGroup,
+  MDBListGroupItem
 } from "mdbreact";
 
 const productLinks = [
@@ -39,6 +41,7 @@ const productLinks = [
   { endpoint: "corrugated-pads", name: "Corrugated Pads" },
   { endpoint: "easy-fold-boxes", name: "Easy Fold Boxes" },
   { endpoint: "mailing-tubes", name: "Mailing Tubes" },
+
   { endpoint: "bubble-wrap", name: "Bubble Wrap" },
   {
     endpoint: "bubble-wrap-foam-dispenser",
@@ -115,10 +118,6 @@ class NavigationBars extends React.Component {
       term: ""
     };
   }
-  searchHandler = e => {
-    this.setState({ term: e.target.value });
-  };
-
   componentDidMount() {
     this.handleResize();
     window.addEventListener("resize", this.handleResize);
@@ -131,10 +130,14 @@ class NavigationBars extends React.Component {
     this.setState({
       windowWidth: window.innerWidth
     });
+
   handleToggleClickA = () => {
     this.setState({
       toggleStateA: !this.state.toggleStateA
     });
+  };
+  searchHandler = event => {
+    this.setState({ term: event.target.value });
   };
 
   render() {
@@ -189,7 +192,10 @@ class NavigationBars extends React.Component {
           </li>
           {/*SEARCH BAR BEGIN*/}
           <MDBCol md="12">
-            <MDBFormInline className="md-form">
+            <MDBFormInline
+              onSubmit={this.handleToggleClickA}
+              className="md-form"
+            >
               <MDBIcon icon="search" />
               <input
                 className="form-control
@@ -202,11 +208,18 @@ class NavigationBars extends React.Component {
                 aria-label="Search"
               />
             </MDBFormInline>
-            {productLinks.filter(filterFunc(term)).map(link => (
-              <li key={link.endpoint}>
-                <NavLink to={link.endpoint}>{link.name}</NavLink>
-              </li>
-            ))}
+            <MDBListGroup>
+              {productLinks.filter(filterFunc(term)).map(link => (
+                <MDBListGroupItem key={link.endpoint}>
+                  <NavLink
+                    onClick={this.handleToggleClickA.bind(this)}
+                    to={link.endpoint}
+                  >
+                    {link.name}
+                  </NavLink>
+                </MDBListGroupItem>
+              ))}
+            </MDBListGroup>
           </MDBCol>
           {/*SEARCH BAR END*/}
           {/*SIDE NAV BEGIN*/}
@@ -217,37 +230,21 @@ class NavigationBars extends React.Component {
               id="submit-bags"
               icon="fa fa-shopping-bag"
             >
-              <li>
-                <NavLink to="anti-static-bags">Anti Static Bags</NavLink>
-              </li>
-              <li>
-                <NavLink to="/bubble-pouches">Bubble Pouches</NavLink>
-              </li>
-              <li>
-                <NavLink to="/clear-poly-bags">Clear Poly Bags</NavLink>
-              </li>
-              <li>
-                <NavLink to="/clear-reclosable-bags">
-                  Clear Reclosable Bags
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-bag-sealer">Poly bag Sealer</NavLink>
-              </li>
-              <li>
-                <NavLink to="/polypropylene-bags">Polypropylene Bags</NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-tubing">Poly Tubing</NavLink>
-              </li>
-              <li>
-                <NavLink to="/static-shielding-bags">
-                  Static Shielding Bags
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/vacuum-bags">Vacuum bags</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .splice(0, 9)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* CORRUGATED BOXES */}
@@ -257,31 +254,21 @@ class NavigationBars extends React.Component {
               id="boxes-cat"
               icon="fa fa-box-open"
             >
-              <li>
-                <NavLink to="/box-stapler-staples">
-                  Box Stapler & Staples
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/corrugated-boxes">Corrugated Boxes</NavLink>
-              </li>
-              <li>
-                <NavLink to="/corrugated-bulk-containers">
-                  Corrugated Bulk Containers
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/corrugated-mailers">Corrugated Pads</NavLink>
-              </li>
-              <li>
-                <NavLink to="/corrugated-pads">Corrugated Mailers</NavLink>
-              </li>
-              <li>
-                <NavLink to="/easy-fold-boxes">Bubble Pouches</NavLink>
-              </li>
-              <li>
-                <NavLink to="/mailing-tubes">Mailing Tubes</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(10, 16)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* CUSHIONING */}
@@ -291,35 +278,21 @@ class NavigationBars extends React.Component {
               id="cushioning-cat"
               icon="fa fa-database"
             >
-              <li>
-                <NavLink to="/bubble-wrap">Bubble Wrap</NavLink>
-              </li>
-              <li>
-                <NavLink to="/bubble-wrap-foam-dispenser">
-                  Bubble Wrap & Foam Dispenser
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/cushioning-foam">Cushioning Foam</NavLink>
-              </li>
-              <li>
-                <NavLink to="/kraft-wrapping-paper">
-                  Kraft Wrapping Paper
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/newsprint-wrapping-paper">
-                  Newsprint Wrapping Paper
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/packing-peanuts">Packing Peanuts</NavLink>
-              </li>
-              <li>
-                <NavLink to="/tissue-wrapping-paper">
-                  Tissue Wrapping Paper
-                </NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(17, 23)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* LABELS AND ENVELOPES */}
@@ -329,27 +302,21 @@ class NavigationBars extends React.Component {
               id="labels-cat"
               icon="fa fa-envelope"
             >
-              <li>
-                <NavLink to="/circle-mailing-labels">
-                  Circle Mailing Labels
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/laser-labels">Laser Labels</NavLink>
-              </li>
-              <li>
-                <NavLink to="/packing-list-envelopes">
-                  Packing List Envelopes
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/shipping-handling-labels">
-                  Shipping & Handling Labels
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/thermal-transfer">Thermal Transfer</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(23, 28)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* MAILERS */}
@@ -359,15 +326,21 @@ class NavigationBars extends React.Component {
               id="mailers-cat"
               icon="fa fa-mail-bulk"
             >
-              <li>
-                <NavLink to="/kraft-bubble-mailer">Kraft Bubble Mailer</NavLink>
-              </li>
-              <li>
-                <NavLink to="/oly-bubble-mailer">Poly Bubble Mailer</NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-mailers">Poly Mailer</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(28, 31)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* STRAPPING */}
@@ -377,23 +350,21 @@ class NavigationBars extends React.Component {
               id="strapping-cat"
               icon="fa crop-alt"
             >
-              <li>
-                <NavLink to="/poly-strapping-machine">Poly Mailer</NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-strapping">Poly Strapping Machine</NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-strapping-tools">
-                  Poly Strapping Tools
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/steel-strapping">Steel Strapping</NavLink>
-              </li>
-              <li>
-                <NavLink to="/v-board">V-Boards</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(31, 36)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* STRETCH FILM */}
@@ -403,28 +374,21 @@ class NavigationBars extends React.Component {
               id="stretch-film-cat"
               icon="fa fa-scroll"
             >
-              <li>
-                <NavLink to="/hand-stretch-wrap">Hand Stretch Wrap</NavLink>
-              </li>
-              <li>
-                <NavLink to="/machine-stretch-wrap">
-                  Machine Stretch Wrap
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/opaque-stretch-wrap">Opaque Stretch Wrap</NavLink>
-              </li>
-              <li>
-                <NavLink to="/shrink-wrap-roll">Shrink Wrap Roll</NavLink>
-              </li>
-              <li>
-                <NavLink to="/shrink-wrap-system">Stretch Wrap Machine</NavLink>
-              </li>
-              <li>
-                <NavLink to="/stretch-wrap-machinery">
-                  Shrink Wrap System
-                </NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(36, 42)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* TAPE */}
@@ -434,37 +398,21 @@ class NavigationBars extends React.Component {
               id="tape-cat"
               icon="fa fa-tape"
             >
-              <li>
-                <NavLink to="/carton-sealing-tape">Carton Sealing Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/colored-tape">Colored Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/custom-print-tape">Custom Print Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/filament-tape">Filament Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/masking-tape">Masking Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/office-tape-dispenser">
-                  Office Tape & Dispenser
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/tape-dispenser">Tape Dispenser</NavLink>
-              </li>
-              <li>
-                <NavLink to="/vinyl-tape">Vinyl Tape</NavLink>
-              </li>
-              <li>
-                <NavLink to="/water-activated-gummed-tape">
-                  Water-Activated Gummed Tape
-                </NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(42, 51)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* TOOLS & MACHINE */}
@@ -474,31 +422,21 @@ class NavigationBars extends React.Component {
               id="tools-machine-cat"
               icon="fa fa-tools"
             >
-              <li>
-                <NavLink to="/air-pillow-machine">Air Pillow Machine</NavLink>
-              </li>
-              <li>
-                <NavLink to="/glue-gun">Glue Gun</NavLink>
-              </li>
-              <li>
-                <NavLink to="/poly-tubing-dispenser">
-                  Poly Tubing Dispenser
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/utility-knife">Utility Knife</NavLink>
-              </li>
-              <li>
-                <NavLink to="/wrapping-paper-dispenser">
-                  Wrapping Paper Dispenser
-                </NavLink>
-              </li>
-
-              <MDBSideNavItem>Air Pillow Machine</MDBSideNavItem>
-              <MDBSideNavItem>Glue Gun</MDBSideNavItem>
-              <MDBSideNavItem>Poly Tubing Dispenser</MDBSideNavItem>
-              <MDBSideNavItem>Utility Knife</MDBSideNavItem>
-              <MDBSideNavItem>Wrapping Paper Dispenser</MDBSideNavItem>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(51, 55)}
+              </MDBListGroup>
             </MDBSideNavCat>
 
             {/* MISCELLANEOUS */}
@@ -508,21 +446,21 @@ class NavigationBars extends React.Component {
               id="miscellaneous-cat"
               icon="fa fa-address-book"
             >
-              <li>
-                <NavLink to="/cable-ties">Cable Ties</NavLink>
-              </li>
-              <li>
-                <NavLink to="/gloves-masks">Gloves & Masks</NavLink>
-              </li>
-              <li>
-                <NavLink to="/metal-truck-seal">Metal Truck Seal</NavLink>
-              </li>
-              <li>
-                <NavLink to="/shipping-scales">Shipping Scales</NavLink>
-              </li>
-              <li>
-                <NavLink to="/twist-ties">Twist Ties</NavLink>
-              </li>
+              <MDBListGroup>
+                {productLinks
+                  .filter(filterFunc(term))
+                  .map(link => (
+                    <MDBListGroupItem key={link.endpoint}>
+                      <NavLink
+                        onClick={this.handleToggleClickA.bind(this)}
+                        to={link.endpoint}
+                      >
+                        {link.name}
+                      </NavLink>
+                    </MDBListGroupItem>
+                  ))
+                  .slice(55, 60)}
+              </MDBListGroup>
             </MDBSideNavCat>
           </MDBSideNavNav>
         </MDBSideNav>

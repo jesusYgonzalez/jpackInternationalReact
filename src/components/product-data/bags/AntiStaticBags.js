@@ -11,7 +11,7 @@ import {
 } from "mdbreact";
 import { MDBContainer } from "mdbreact";
 import image from "../../../assets/img/anti-static-bag.jpg";
-import classes from "./style.css";
+import classes from "../style.css";
 
 export const antiStaticBags = [
   {

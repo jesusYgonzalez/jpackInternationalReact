@@ -1,0 +1,51 @@
+/*//*/
+/*//@media (max-width: 576px) {*/
+/*//	.item {*/
+/*//	font-size: .1rem;*/
+/*//	}*/
+/*//}*/
+
+/*@media (min-width:600px) {*/
+/*	.item {*/
+/*		font-size: 14px;*/
+/*	}*/
+/*}*/
+
+/*.side-nav a.Ripple-parent {*/
+/*  background-color: transparent;*/
+/*}*/
+
+.side-nav a {
+  color: black;
+  display: block;
+  height: 2rem;
+  font-size: 0.8rem;
+  line-height: 2.1rem;
+  vertical-align: middle;
+}
+
+/*background-color: rgba(0, 0, 0, 0.15);*/
+/*.side-nav ul.social li a {*/
+/*  background-color: transparent;*/
+/*}*/
+
+.md-form {
+  margin-bottom: 0.7rem;
+}
+
+div.ps_thumb-y {
+  overflow: hidden;
+}
+
+/*.side-nav MDBListGroup {*/
+/*  background-color: rgba(0, 0, 0, 0.15);*/
+/*  padding: 15px;*/
+/*}*/
+
+/*.side-nav MDBListGroup {*/
+/*  color: white;*/
+/*  display: block;*/
+/*  height: 1rem;*/
+/*  font-size: 0.8rem;*/
+/*  line-height: 1rem;*/
+/*}*/
