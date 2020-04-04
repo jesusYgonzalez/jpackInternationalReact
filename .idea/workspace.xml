@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/core/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/core/navigationBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/navigationBars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/product-data/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jpackInternationalReact" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +51,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowTypeScript.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -89,7 +94,7 @@
       <workItem from="1585057064924" duration="39511000" />
       <workItem from="1585628798343" duration="21576000" />
       <workItem from="1585720372640" duration="31819000" />
-      <workItem from="1585987668541" duration="10993000" />
+      <workItem from="1585987668541" duration="25934000" />
     </task>
     <servers />
   </component>
@@ -195,17 +200,18 @@
     </state>
     <state x="3592" y="143" width="782" height="550" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779343810" />
     <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584949152120" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1586000198892">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586000914422">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586000198892" />
+    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586000914422" />
     <state x="1040" y="751" key="run.anything.popup" timestamp="1583915864726">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1040" y="751" key="run.anything.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583915864726" />
-    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup" timestamp="1585999973916">
-      <screen x="655" y="1103" width="1440" height="877" />
+    <state x="1108" y="210" width="1192" height="815" key="search.everywhere.popup" timestamp="1586011040078">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
+    <state x="1108" y="210" width="1192" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@0.23.2560.1057" timestamp="1586011040078" />
     <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779514624" />
     <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585999973916" />
   </component>

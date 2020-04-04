@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <Layout>
           <NavigationBars />
-          <Router />
+          {/*<Router />*/}
         </Layout>
       </div>
     );

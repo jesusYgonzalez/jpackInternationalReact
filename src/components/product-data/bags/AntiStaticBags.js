@@ -256,10 +256,10 @@ export const antiStaticBags = [
 
 const AntiStaticBags = () => {
   return (
-    <div className={classes.item}>
-      <MDBContainer>
-        <MDBRow>
-          <MDBCol size="lg-12" className="my-3">
+  	<MDBContainer className={classes.container}>
+			<MDBRow className="ml-lg-5">
+					{/*IMAGE*/}
+          <MDBCol size="lg-12 ml-lg-5">
             <MDBCard>
               <MDBCardImage
                 className="img-fluid mx-auto"
@@ -269,8 +269,8 @@ const AntiStaticBags = () => {
               />
             </MDBCard>
           </MDBCol>
-
-          <MDBCol className="mb-4">
+					{/*PRODUCT INFO*/}
+          <MDBCol size="lg-12 ml-lg-5 my-4">
             <MDBCard>
               <MDBCardBody>
                 <MDBCardTitle style={{ color: "#1976d2" }}>
@@ -296,13 +296,11 @@ const AntiStaticBags = () => {
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
-
           {/*TABLE*/}
-          <MDBCol size="lg-12">
+          <MDBCol size="lg-12 ml-lg-5 mb-4">
             <MDBTable striped>
               <MDBTableHead>
                 <tr
-                  className={classes.th}
                   color="primary"
                   style={{
                     backgroundColor: "#1976d2",
@@ -333,9 +331,8 @@ const AntiStaticBags = () => {
               </tbody>
             </MDBTable>
           </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-    </div>
+			</MDBRow>
+		</MDBContainer>
   );
 };
 

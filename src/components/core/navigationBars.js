@@ -1,25 +1,26 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {
-  MDBNavbar,
-  MDBNavbarNav,
-  MDBNavItem,
-  MDBNavLink,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
-  MDBIcon,
-  MDBSideNavCat,
-  MDBSideNavNav,
-  MDBSideNav,
-  MDBFormInline,
-  MDBCol,
-  MDBListGroup,
-  MDBListGroupItem
+	MDBNavbar,
+	MDBNavbarNav,
+	MDBNavItem,
+	MDBNavLink,
+	MDBDropdown,
+	MDBDropdownToggle,
+	MDBDropdownMenu,
+	MDBDropdownItem,
+	MDBIcon,
+	MDBSideNavCat,
+	MDBSideNavNav,
+	MDBSideNav,
+	MDBFormInline,
+	MDBCol,
+	MDBListGroup,
+	MDBListGroupItem
 } from "mdbreact";
 import jpackLogo from "../../assets/img/jpack-logo.jpg";
 import classes from "./navigation.css";
+import Layout from "../../hoc/Layout/Layout";
 
 const productLinks = [
   { endpoint: "anti-static-bags", name: "Anti Static Bags" },
@@ -150,11 +151,12 @@ class NavigationBars extends React.Component {
       paddingLeft:
         this.state.windowWidth > this.state.breakWidth ? "210px" : "16px"
     };
-    const mainStyle = {
-      paddingTop: "4rem",
-      paddingLeft:
-        this.state.windowWidth > this.state.breakWidth ? "240px" : "0"
-    };
+		const mainStyle = {
+			margin: "0 6%",
+			paddingTop: "5rem",
+			paddingLeft:
+				this.state.windowWidth > this.state.breakWidth ? "240px" : "0"
+		};
     const specialCaseNavbarStyles = {
       WebkitBoxOrient: "horizontal",
       flexDirection: "row"
@@ -179,12 +181,12 @@ class NavigationBars extends React.Component {
     }
 
     return (
-      <div className="fixed-sn light-blue-skin">
+      <div className="fixed-sn pink-skin">
         <MDBSideNav
           logo={jpackLogo}
           triggerOpening={this.state.toggleStateA}
           breakWidth={this.state.breakWidth}
-          bg={jpackLogo}
+          // bg={jpackLogo}
           mask="strong"
           fixed
         >
@@ -220,7 +222,7 @@ class NavigationBars extends React.Component {
             >
               <MDBIcon icon="search" />
               <input
-                autocomplete="off"
+                autoComplete="off"
                 className="form-control
                 light-blue-text
           			form-control-sm ml-3 w-75"
@@ -520,7 +522,9 @@ class NavigationBars extends React.Component {
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBNavbar>
-        <main style={mainStyle} />
+
+				<main style={mainStyle} />
+
       </div>
     );
   }

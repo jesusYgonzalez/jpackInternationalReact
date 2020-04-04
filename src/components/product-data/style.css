@@ -1,18 +1,16 @@
-/*//*/
-/*//@media (max-width: 576px) {*/
-/*//	.item {*/
-/*//	font-size: .1rem;*/
-/*//	}*/
-/*//}*/
+@media (max-width: 576px) {
+	.item, .card-text {
+	font-size: .8rem !important;
+	}
+	h4 {
+		font-size: 1rem !important;
+	}
+}
 
 /*@media (min-width:600px) {*/
 /*	.item {*/
 /*		font-size: 14px;*/
 /*	}*/
-/*}*/
-
-/*.side-nav a.Ripple-parent {*/
-/*  background-color: transparent;*/
 /*}*/
 
 .side-nav a {
@@ -24,6 +22,9 @@
   vertical-align: middle;
 }
 
+.container {
+	padding: 0;
+}
 /*background-color: rgba(0, 0, 0, 0.15);*/
 /*.side-nav ul.social li a {*/
 /*  background-color: transparent;*/
