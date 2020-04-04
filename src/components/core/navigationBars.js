@@ -10,7 +10,6 @@ import {
   MDBDropdownMenu,
   MDBDropdownItem,
   MDBIcon,
-  MDBSideNavItem,
   MDBSideNavCat,
   MDBSideNavNav,
   MDBSideNav,
@@ -19,6 +18,8 @@ import {
   MDBListGroup,
   MDBListGroupItem
 } from "mdbreact";
+import jpackLogo from "../../assets/img/jpack-logo.jpg";
+import classes from "./navigation.css";
 
 const productLinks = [
   { endpoint: "anti-static-bags", name: "Anti Static Bags" },
@@ -126,16 +127,19 @@ class NavigationBars extends React.Component {
     window.removeEventListener("resize", this.handleResize);
   }
 
-  handleResize = () =>
-    this.setState({
-      windowWidth: window.innerWidth
-    });
-
   handleToggleClickA = () => {
     this.setState({
-      toggleStateA: !this.state.toggleStateA
+      toggleStateA: !this.state.toggleStateA,
+      term: ""
     });
   };
+
+  resetForm = e => {
+    e.preventDefault();
+  };
+
+  handleResize = () => this.setState({ windowWidth: window.innerWidth });
+
   searchHandler = event => {
     this.setState({ term: event.target.value });
   };
@@ -156,13 +160,31 @@ class NavigationBars extends React.Component {
       flexDirection: "row"
     };
 
+    let products = null;
+    if (this.state.term) {
+      products = (
+        <MDBListGroup>
+          {productLinks.filter(filterFunc(term)).map(link => (
+            <MDBListGroupItem key={link.endpoint}>
+              <NavLink
+                onClick={this.handleToggleClickA.bind(this)}
+                to={link.endpoint}
+              >
+                {link.name}
+              </NavLink>
+            </MDBListGroupItem>
+          ))}
+        </MDBListGroup>
+      );
+    }
+
     return (
       <div className="fixed-sn light-blue-skin">
         <MDBSideNav
-          logo="https://mdbootstrap.com/img/logo/mdb-transparent.png"
+          logo={jpackLogo}
           triggerOpening={this.state.toggleStateA}
           breakWidth={this.state.breakWidth}
-          bg="https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg"
+          bg={jpackLogo}
           mask="strong"
           fixed
         >
@@ -193,33 +215,23 @@ class NavigationBars extends React.Component {
           {/*SEARCH BAR BEGIN*/}
           <MDBCol md="12">
             <MDBFormInline
-              onSubmit={this.handleToggleClickA}
+              onSubmit={this.resetForm.bind(this)}
               className="md-form"
             >
               <MDBIcon icon="search" />
               <input
+                autocomplete="off"
                 className="form-control
+                light-blue-text
           			form-control-sm ml-3 w-75"
                 type="text"
-                id="search"
                 value={term}
                 onChange={this.searchHandler.bind(this)}
                 placeholder="Search"
                 aria-label="Search"
               />
             </MDBFormInline>
-            <MDBListGroup>
-              {productLinks.filter(filterFunc(term)).map(link => (
-                <MDBListGroupItem key={link.endpoint}>
-                  <NavLink
-                    onClick={this.handleToggleClickA.bind(this)}
-                    to={link.endpoint}
-                  >
-                    {link.name}
-                  </NavLink>
-                </MDBListGroupItem>
-              ))}
-            </MDBListGroup>
+            {products}
           </MDBCol>
           {/*SEARCH BAR END*/}
           {/*SIDE NAV BEGIN*/}
@@ -232,7 +244,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -243,7 +254,7 @@ class NavigationBars extends React.Component {
                       </NavLink>
                     </MDBListGroupItem>
                   ))
-                  .splice(0, 9)}
+                  .slice(0, 9)}
               </MDBListGroup>
             </MDBSideNavCat>
 
@@ -256,7 +267,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -280,7 +290,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -304,7 +313,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -328,7 +336,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -352,7 +359,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -376,7 +382,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -400,7 +405,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -424,7 +428,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -448,7 +451,6 @@ class NavigationBars extends React.Component {
             >
               <MDBListGroup>
                 {productLinks
-                  .filter(filterFunc(term))
                   .map(link => (
                     <MDBListGroupItem key={link.endpoint}>
                       <NavLink
@@ -464,6 +466,7 @@ class NavigationBars extends React.Component {
             </MDBSideNavCat>
           </MDBSideNavNav>
         </MDBSideNav>
+        {/*END SIDE NAV*/}
 
         {/* NAVBAR */}
         <MDBNavbar style={navStyle} double expand="md" fixed="top" scrolling>
@@ -472,55 +475,46 @@ class NavigationBars extends React.Component {
               <div
                 onClick={this.handleToggleClickA}
                 key="sideNavToggleA"
-                style={{
-                  lineHeight: "32px",
-                  marginRight: "1em",
-                  verticalAlign: "middle"
-                }}
+                className={classes.navItem}
               >
                 <MDBIcon icon="bars" color="white" size="2x" />
               </div>
             </MDBNavItem>
             <MDBNavItem
               className="d-none d-md-inline"
-              style={{ paddingTop: 5 }}
+              style={{ paddingTop: 5, marginLeft: "1rem" }}
             >
-              Jpack International
+              Jpack International 
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right style={specialCaseNavbarStyles}>
             <MDBNavItem active>
               <MDBNavLink to="#!">
                 <MDBIcon icon="envelope" className="d-inline-inline" />{" "}
-                <div className="d-none d-md-inline">Contact</div>
+                <div className="d-none d-md-inline">About Us</div>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="#!">
                 <MDBIcon far icon="comments" className="d-inline-inline" />{" "}
-                <div className="d-none d-md-inline">Support</div>
+                <div className="d-none d-md-inline">Contact US</div>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="#!">
                 <MDBIcon icon="user" className="d-inline-inline" />{" "}
-                <div className="d-none d-md-inline">Account</div>
+                <div className="d-none d-md-inline">Order Online</div>
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Dropdown</div>
+                  <div className="d-none d-md-inline">More</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu right>
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">
-                    Something else here
-                  </MDBDropdownItem>
-                  <MDBDropdownItem href="#!">
-                    Something else here
-                  </MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Success Stories</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Request Quotation</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">FAQ</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>

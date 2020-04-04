@@ -2,70 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/core/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jesusgonzalez.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/build-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/build-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-fizz.node.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.profiling.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-fizz.browser.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.profiling.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/build-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/build-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rimraf/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/rimraf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rimraf/rimraf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/build-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-tracing.profiling.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/cjs/scheduler.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/core/navigationBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/navigationBars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-data/bags/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-data/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +88,8 @@
       <workItem from="1584939065799" duration="28045000" />
       <workItem from="1585057064924" duration="39511000" />
       <workItem from="1585628798343" duration="21576000" />
-      <workItem from="1585720372640" duration="29237000" />
+      <workItem from="1585720372640" duration="31819000" />
+      <workItem from="1585987668541" duration="10993000" />
     </task>
     <servers />
   </component>
@@ -175,6 +118,10 @@
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="655" y="1176" key="#Live_Templates/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584436275648" />
+    <state x="975" y="1207" key="#Menus_and_Toolbars" timestamp="1585999177334">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="975" y="1207" key="#Menus_and_Toolbars/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585999177334" />
     <state x="975" y="1207" key="#Notifications" timestamp="1585743099473">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
@@ -183,18 +130,23 @@
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="1088" y="1351" key="#com.intellij.fileTypes.FileTypeChooser/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584319306912" />
-    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1584435792311">
+    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585998503083">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
-    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584435792311" />
+    <state x="1052" y="1214" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585998503083" />
+    <state x="1063" y="1276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585987644589">
+      <screen x="655" y="1103" width="1440" height="877" />
+    </state>
+    <state x="1063" y="1276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585987644589" />
     <state x="1113" y="1295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584939186274">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="1113" y="1295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584939186274" />
-    <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1584779106670">
-      <screen x="2560" y="23" width="1920" height="1057" />
+    <state x="730" y="1186" width="1290" height="712" key="DiffContextDialog" timestamp="1585992699274">
+      <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="2660" y="123" width="1720" height="857" key="DiffContextDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779106670" />
+    <state x="730" y="1186" width="1290" height="712" key="DiffContextDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585992699274" />
     <state x="948" y="1327" width="698" height="653" key="EditFileWatcherDialog" timestamp="1585741851541">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
@@ -219,17 +171,17 @@
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state width="1117" height="237" key="GridCell.Tab.0.right/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585128779611" />
-    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor" timestamp="1585899134798">
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor" timestamp="1585988352189">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="12" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584440833230" />
     <state x="2576" y="116" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779531368" />
-    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585899134798" />
-    <state x="660" y="1203" width="1335" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585714152099">
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585988352189" />
+    <state x="734" y="1135" width="1335" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585991694573">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="2693" y="144" width="1654" height="816" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584780176008" />
-    <state x="660" y="1203" width="1335" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585714152099" />
+    <state x="734" y="1135" width="1335" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585991694573" />
     <state x="1158" y="1465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585739573334">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
@@ -243,18 +195,18 @@
     </state>
     <state x="3592" y="143" width="782" height="550" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779343810" />
     <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584949152120" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1585905921777">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586000198892">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585905921777" />
+    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586000198892" />
     <state x="1040" y="751" key="run.anything.popup" timestamp="1583915864726">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1040" y="751" key="run.anything.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583915864726" />
-    <state x="732" y="1271" width="670" height="676" key="search.everywhere.popup" timestamp="1585900780188">
+    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup" timestamp="1585999973916">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779514624" />
-    <state x="732" y="1271" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585900780188" />
+    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585999973916" />
   </component>
 </project>
