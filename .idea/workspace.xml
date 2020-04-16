@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf15b37-df39-488f-b0bd-28be44bb022a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart-controls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MDB-React-Pro-npm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MDB-React-Pro-npm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/core/navigationBars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/navigationBars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/bags/AntiStaticBags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-data/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-data/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="jpackInternationalReact" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,17 +42,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTypeScript.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,18 +61,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.21393035" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/product-data" />
       <recent name="$PROJECT_DIR$/src/hoc/Aux" />
       <recent name="$PROJECT_DIR$/src/components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -94,25 +93,27 @@
       <workItem from="1585057064924" duration="39511000" />
       <workItem from="1585628798343" duration="21576000" />
       <workItem from="1585720372640" duration="31819000" />
-      <workItem from="1585987668541" duration="25934000" />
+      <workItem from="1585987668541" duration="32804000" />
+      <workItem from="1586850387233" duration="4085000" />
+      <workItem from="1586863726322" duration="1930000" />
+      <workItem from="1586869330508" duration="6782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="975" y="1207" key="#File_Watchers" timestamp="1585744991798">
@@ -176,12 +177,12 @@
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state width="1117" height="237" key="GridCell.Tab.0.right/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585128779611" />
-    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor" timestamp="1585988352189">
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor" timestamp="1586862249532">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="12" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584440833230" />
     <state x="2576" y="116" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779531368" />
-    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585988352189" />
+    <state x="667" y="1180" width="1416" height="722" key="SettingsEditor/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586862249532" />
     <state x="734" y="1135" width="1335" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585991694573">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
@@ -200,19 +201,19 @@
     </state>
     <state x="3592" y="143" width="782" height="550" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779343810" />
     <state x="122" y="415" width="837" height="553" key="find.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1584949152120" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1586000914422">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586875872845">
       <screen x="655" y="1103" width="1440" height="877" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586000914422" />
+    <state width="600" height="424" key="javadoc.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1586875872845" />
     <state x="1040" y="751" key="run.anything.popup" timestamp="1583915864726">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1040" y="751" key="run.anything.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1583915864726" />
-    <state x="1108" y="210" width="1192" height="815" key="search.everywhere.popup" timestamp="1586011040078">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup" timestamp="1587023071794">
+      <screen x="655" y="1103" width="1440" height="877" />
     </state>
     <state x="1108" y="210" width="1192" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@0.23.2560.1057" timestamp="1586011040078" />
     <state x="3073" y="252" width="894" height="815" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@2560.23.1920.1057" timestamp="1584779514624" />
-    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1585999973916" />
+    <state x="1278" y="1258" width="670" height="676" key="search.everywhere.popup/655.1103.1440.877/0.23.2560.1057/2560.23.1920.1057@655.1103.1440.877" timestamp="1587023071794" />
   </component>
 </project>

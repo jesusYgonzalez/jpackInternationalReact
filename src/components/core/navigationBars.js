@@ -20,7 +20,6 @@ import {
 } from "mdbreact";
 import jpackLogo from "../../assets/img/jpack-logo.jpg";
 import classes from "./navigation.css";
-import Layout from "../../hoc/Layout/Layout";
 
 const productLinks = [
   { endpoint: "anti-static-bags", name: "Anti Static Bags" },

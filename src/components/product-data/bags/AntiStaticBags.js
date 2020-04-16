@@ -7,13 +7,14 @@ import {
   MDBCardTitle,
   MDBCol,
   MDBTable,
-  MDBTableHead
+  MDBTableHead,
+  MDBBtn
 } from "mdbreact";
 import { MDBContainer } from "mdbreact";
 import image from "../../../assets/img/anti-static-bag.jpg";
 import classes from "../style.css";
 
-export const antiStaticBags = [
+const antiStaticBags = [
   {
     productNumber: "----------",
     durability: "-----------",
@@ -254,11 +255,16 @@ export const antiStaticBags = [
   }
 ];
 
-const AntiStaticBags = () => {
-  return (
-  	<MDBContainer className={classes.container}>
-			<MDBRow className="ml-lg-5">
-					{/*IMAGE*/}
+class AntiStaticBags extends React.Component {
+  addProduct = e => {
+    console.log(e);
+  };
+
+  render() {
+    return (
+      <MDBContainer className={classes.container}>
+        <MDBRow className="ml-lg-5">
+          {/*IMAGE*/}
           <MDBCol size="lg-12 ml-lg-5">
             <MDBCard>
               <MDBCardImage
@@ -269,7 +275,7 @@ const AntiStaticBags = () => {
               />
             </MDBCard>
           </MDBCol>
-					{/*PRODUCT INFO*/}
+          {/*PRODUCT INFO*/}
           <MDBCol size="lg-12 ml-lg-5 my-4">
             <MDBCard>
               <MDBCardBody>
@@ -312,28 +318,34 @@ const AntiStaticBags = () => {
                   <th className="text-center item">Size</th>
                   <th className="text-center item">Weight</th>
                   <th className="text-center item">Bags Per Case</th>
-                  {/*<th className="text-center">Add To Cart</th>*/}
+                  <th className="text-center item">Add</th>
                 </tr>
               </MDBTableHead>
               <tbody>
                 {antiStaticBags.map(bags => (
-                  <tr key={bags.productNumber}>
+                  <tr
+                    onClick={this.addProduct.bind(this)}
+                    key={bags.productNumber}
+                  >
                     {/*<td className="text-center item">{bags.productNumber}</td>*/}
                     <td className="text-center item">{bags.durability}</td>
                     <td className="text-center item">{bags.sizeWxL}</td>
                     <td className="text-center item">{bags.weight}</td>
                     <td className="text-center item">{bags.bagPerCase}</td>
-                    {/*<td>*/}
-                    {/*  <MDBBtn className="text-center" color="blue">Add</MDBBtn>*/}
-                    {/*</td>*/}
+                    <td>
+                      <MDBBtn className="text-center" color="blue">
+                        Add
+                      </MDBBtn>
+                    </td>
                   </tr>
                 ))}
               </tbody>
             </MDBTable>
           </MDBCol>
-			</MDBRow>
-		</MDBContainer>
-  );
-};
+        </MDBRow>
+      </MDBContainer>
+    );
+  }
+}
 
 export default AntiStaticBags;
